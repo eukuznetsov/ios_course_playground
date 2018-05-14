@@ -33,6 +33,7 @@ class SecondViewController: UIViewController {
                 print("Updated list saved: \(list)")
             }
         }
+        URLSession.shared.dataTask(with: <#T##URL#>)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
